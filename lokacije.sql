@@ -35,7 +35,7 @@ CREATE TABLE `lokacije` (
 -- Dumping data for table `kategorije_komponenti`
 --
 
-INSERT INTO `kategorije_komponenti` (`id`, `ime_lokacije`) VALUES
+INSERT INTO `lokacije` (`id`, `ime_lokacije`) VALUES
 (1, 'A1'),
 (2, 'A2'),
 (3, 'A3'),
