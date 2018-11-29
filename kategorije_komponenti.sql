@@ -37,28 +37,29 @@ CREATE TABLE `kategorije_komponenti` (
 --
 
 INSERT INTO `kategorije_komponenti` (`id`, `ime_kategorije`, `kratak_opis`) VALUES
-(1, 'Izvori napajanja', 'AC-DC step-up i step-down konverteri i svakojaka napajanja'),
-(2, 'Kabeli', 'Svakojaki kablovi'),
-(3, 'Konektori', 'Konektorti muški, ženski, za 220V ili 12V'),
-(4, 'Mikrokontroleri', 'Arduino Uno, pro mini, nodemcu'),
-(5, 'Otpornici', 'Svakakve verzije otpornika'),
-(6, 'Kondenzatori', 'Bipolarni i svakakvi kondenzatori'),
-(7, 'Senzori', 'ćelije za mjerenje, vlage, težine, voltaže i svega drugog'),
-(8, 'Kutije', 'Razne kutije za elektroniku'),
-(9, 'Inox komponente', 'Inox djelovi za HERMS sustav'),
-(10, 'Dom i vrt', 'Svašta nešto'),
-(11, 'Ekrani', 'LCD ili Led paneli ili nešto drugo'),
-(12, 'Releji i tranzistori', 'Sve što ima funkciju neke sklopke/prekidača'),
-(13, 'Pumpe', 'Svakakve, zračne, vodene ili neke druge'),
-(14, 'Motori', 'AC, DC, Servo i dr.'),
-(15, 'Diode', 'LED, zener i dr.'),
-(16, 'Prijamnici/predajnici', 'Bluetooth, RF, Wireless i dr'),
-(17, 'Hladnjiaci', 'Različiti aluminijski, bakreni i drugi elementi za hlađenje'),
-(18, 'Tiskane pločice', 'Jednoslojne, dvoslojne, foto i druge'),
-(19, 'Čitači/Pisači', 'Razni moduli za čitanje i pisanje kao sd čitač, rfid pisač'),
-(20, 'Potenciometri i joystici', 'Razni uređaji za kontrolu servo motora i ostalih komponenti'),
-(21, 'Oscilatori', 'quartzni oscilatori'),
-(22, 'Pojačala', 'Svakojaka pojačala');
+(1, 'Nema kategoriju', ' '),
+(2, 'Izvori napajanja', 'AC-DC step-up i step-down konverteri i svakojaka napajanja'),
+(3, 'Kabeli', 'Svakojaki kablovi'),
+(4, 'Konektori', 'Konektorti muški, ženski, za 220V ili 12V'),
+(5, 'Mikrokontroleri', 'Arduino Uno, pro mini, nodemcu'),
+(6, 'Otpornici', 'Svakakve verzije otpornika'),
+(7, 'Kondenzatori', 'Bipolarni i svakakvi kondenzatori'),
+(8, 'Senzori', 'ćelije za mjerenje, vlage, težine, voltaže i svega drugog'),
+(9, 'Kutije', 'Razne kutije za elektroniku'),
+(10, 'Inox komponente', 'Inox djelovi za HERMS sustav'),
+(11, 'Dom i vrt', 'Svašta nešto'),
+(12, 'Ekrani', 'LCD ili Led paneli ili nešto drugo'),
+(13, 'Releji i tranzistori', 'Sve što ima funkciju neke sklopke/prekidača'),
+(14, 'Pumpe', 'Svakakve, zračne, vodene ili neke druge'),
+(15, 'Motori', 'AC, DC, Servo i dr.'),
+(16, 'Diode', 'LED, zener i dr.'),
+(17, 'Prijamnici/predajnici', 'Bluetooth, RF, Wireless i dr'),
+(18, 'Hladnjiaci', 'Različiti aluminijski, bakreni i drugi elementi za hlađenje'),
+(19, 'Tiskane pločice', 'Jednoslojne, dvoslojne, foto i druge'),
+(20, 'Čitači/Pisači', 'Razni moduli za čitanje i pisanje kao sd čitač, rfid pisač'),
+(21, 'Potenciometri i joystici', 'Razni uređaji za kontrolu servo motora i ostalih komponenti'),
+(22, 'Oscilatori', 'quartzni oscilatori'),
+(23, 'Pojačala', 'Svakojaka pojačala');
 
 --
 -- Indexes for dumped tables
@@ -78,7 +79,7 @@ ALTER TABLE `kategorije_komponenti`
 -- AUTO_INCREMENT for table `kategorije_komponenti`
 --
 ALTER TABLE `kategorije_komponenti`
-  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
