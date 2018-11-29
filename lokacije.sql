@@ -36,36 +36,37 @@ CREATE TABLE `lokacije` (
 --
 
 INSERT INTO `lokacije` (`id`, `ime_lokacije`) VALUES
-(1, 'A1'),
-(2, 'A2'),
-(3, 'A3'),
-(4, 'A4'),
-(5, 'A5'),
-(6, 'B1'),
-(7, 'B2'),
-(8, 'B3'),
-(9, 'B4'),
-(10, 'B5'),
-(11, 'C1'),
-(12, 'C2'),
-(13, 'C3'),
-(14, 'C4'),
-(15, 'C5'),
-(16, 'D1'),
-(17, 'D2'),
-(18, 'D3'),
-(19, 'D4'),
-(20, 'D5'),
-(21, 'E1'),
-(22, 'E2'),
-(23, 'E3'),
-(24, 'E4'),
-(25, 'E5'),
-(26, 'F1'),
-(27, 'F2'),
-(28, 'F3'),
-(29, 'F4'),
-(30, 'F5');
+(1,'Nema'),
+(2, 'A1'),
+(3, 'A2'),
+(4, 'A3'),
+(5, 'A4'),
+(6, 'A5'),
+(7, 'B1'),
+(8, 'B2'),
+(9, 'B3'),
+(10, 'B4'),
+(11, 'B5'),
+(12, 'C1'),
+(13, 'C2'),
+(14, 'C3'),
+(15, 'C4'),
+(16, 'C5'),
+(17, 'D1'),
+(18, 'D2'),
+(19, 'D3'),
+(20, 'D4'),
+(21, 'D5'),
+(22, 'E1'),
+(23, 'E2'),
+(24, 'E3'),
+(25, 'E4'),
+(26, 'E5'),
+(27, 'F1'),
+(28, 'F2'),
+(29, 'F3'),
+(30, 'F4'),
+(31, 'F5');
 
 --
 -- Indexes for dumped tables
@@ -85,7 +86,7 @@ ALTER TABLE `lokacije`
 -- AUTO_INCREMENT for table `kategorije_komponenti`
 --
 ALTER TABLE `kategorije_komponenti`
-  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
