@@ -122,7 +122,10 @@ INSERT INTO `komp_lok_kol` (`id`, `komp_id`, `lok_id`, `kolicina`) VALUES
 (82, 69, 30, 4),
 (83, 70, 31, 1),
 (84, 71, 31, 1),
-(85, 72, 31, 10);
+(85, 72, 31, 10),
+(86, 73, 1, 1),
+(87, 74, 1, 1),
+(88, 75, 1, 1);
 
 --
 -- Indexes for dumped tables
@@ -144,7 +147,7 @@ ALTER TABLE `komp_lok_kol`
 -- AUTO_INCREMENT for table `komp_lok_kol`
 --
 ALTER TABLE `komp_lok_kol`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=86;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=89;
 --
 -- Constraints for dumped tables
 --
